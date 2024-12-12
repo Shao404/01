@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 500px;
+            height: 200px;
+            color: black;
+        }
+        .active{
+            color: chartreuse;
+            background-color: brown;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        文字
+    </div>
+    <script>
+        const div=document.querySelector('.box')
+        // div.classList.add('active')
+        // div.classList.remove('box')
+        div.classList.toggle('active')
+    </script>
+</body>
+</html>
